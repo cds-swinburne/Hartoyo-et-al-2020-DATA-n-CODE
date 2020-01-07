@@ -7,10 +7,10 @@ A full description of the techniques is described in the following manuscript:
 
 ## Datasets
 
-The "Hartoyo et al. (2020) datasets" folder contains the main and the most important datasets used and generated in Hartoyo et al. (2019)
+The "Datasets" folder contains the main and the most important datasets used and generated in Hartoyo et al. (2020)
 
 ```
-82x73_target_spectra.mat : dataset of the 82 experimental spectra we fit the neural population model to
+82x2x73_alpha_blocking_spectra.mat : dataset of the 82 pairs of eyes-closed (EC) and eyes-open (EO) experimental spectra we fit the neural population model to
 ```
 
 ```
@@ -18,11 +18,11 @@ The "Hartoyo et al. (2020) datasets" folder contains the main and the most impor
 ```
 
 ```
-82x100x22_best_paramsets_PSO.mat : dataset of the 10% best parameter sets selected from 1000 PSO samples
+82x100x32_unregularized_best_paramsets.mat : dataset of the 10% best parameter sets selected from 1000 unregularized PSO samples 
 ```
 
 ```
-82x1000x22_best_paramsets_MCMC.mat : dataset of 1000 parameter sets sub-sampled from a million MCMC samples
+82x100x32_regularized_best_paramsets.mat : dataset of the 10% best parameter sets selected from 1000 regularized PSO samples (regularization parameter = 0.1) 
 ```
 
 #### The order of the 22 physiological parameteres in the datasets: <br>

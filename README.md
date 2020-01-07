@@ -29,8 +29,8 @@ experimental spectra we fit the neural population model to
 ```
 
 #### The order of the 22 physiological parameteres in the datasets: <br>
-<p><img src="http://latex.codecogs.com/gif.latex?$\tau _{e}(EC), \tau _{i}(EC), \gamma _{e}(EC), \gamma _{i}(EC), \Gamma _{e}(EC), \Gamma _{i}(EC), N_{ee}^{\beta }, N_{ei}^{\beta }, N_{ie}^{\beta }, N_{ii}^{\beta }, p_{ee}(EC), p_{ei}(EO), h_{e}^{rest}, h_{i}^{rest}, h_{e}^{eq}, h_{i}^{eq}, S_{e}^{\max }, S_{i}^{\max }, \bar{\mu _{e}}, \bar{\mu _{i}}, {\sigma }_{e}, {\sigma }_{i}, \eta(EC)$" border="0" /></p>
-<p><img src="http://latex.codecogs.com/gif.latex?$\tau _{e}(EO), \tau _{i}(EO), \gamma _{e}(EO), \gamma _{i}(EO), \Gamma _{e}(EO), \Gamma _{i}(EO), p_{ee}(EO), p_{ei}(EO), \eta(EO)$" border="0" /></p>
+<p><img src="http://latex.codecogs.com/gif.latex?$\tau _{e}(EC), \tau _{i}(EC), \gamma _{e}(EC), \gamma _{i}(EC), \Gamma _{e}(EC), \Gamma _{i}(EC), N_{ee}^{\beta }, N_{ei}^{\beta }, N_{ie}^{\beta }, N_{ii}^{\beta }, p_{ee}(EC), p_{ei}(EO), h_{e}^{rest}, h_{i}^{rest}, h_{e}^{eq}, h_{i}^{eq}$" border="0" /></p>
+<p><img src="http://latex.codecogs.com/gif.latex?$\tau _{e}(EO), S_{e}^{\max }, S_{i}^{\max }, \bar{\mu _{e}}, \bar{\mu _{i}}, {\sigma }_{e}, {\sigma }_{i}, \eta(EC), \tau _{i}(EO), \gamma _{e}(EO), \gamma _{i}(EO), \Gamma _{e}(EO), \Gamma _{i}(EO), p_{ee}(EO), p_{ei}(EO), \eta(EO)$" border="0" /></p>
 
 
 
@@ -40,24 +40,23 @@ The "Hartoyo et al. (2019) code" folder is a Matlab<sup>&reg;</sup> source code 
 
 ### Setup
 1.	Clone or download this repository 
-2.	Access the "Hartoyo et al. (2019) code" folder using Matlab<sup>&reg;</sup>
+2.	Access the "Hartoyo-et-al-2020-DATA-n-CODE" folder using Matlab<sup>&reg;</sup>
 3. Run methods and reproduce results/visualizations by executing the following Matlab<sup>&reg;</sup> commands
 
-### Run PSO-based random sampling
+### Run PSO-based random sampling with unregularized fitting for the 82 subjects in EC and EO states
 ```
-RunPSObasedSampling;
+unregularized_EC_EO_best_paramsets = RunTwoStatePSOBasedSamplingFor82Subjects(0);
 ```
 
-### Run MCMC sampling
+### Run PSO-based random sampling with regularized fitting for the 82 subjects in EC and EO states (regularization parameter = 0.1)
 ```
-BaseSetup;
-RunSequenceBase(S_c(indx_a,indx_f),freq(indx_f),prm,dev_a,psel,mparam);
+regularized_EC_EO_best_paramsets = RunTwoStatePSOBasedSamplingFor82Subjects(0.1);
 ```
 
 ### Plot figures
 ```
-FigureSetup;
-FiguresBase(fparam, [figtype]);
+fparam = DataSetup;
+ShowFigure(fparam, [figtype]);
 ``` 
 
 #### Input arguments:

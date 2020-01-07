@@ -29,7 +29,9 @@ experimental spectra we fit the neural population model to
 ```
 
 #### The order of the 22 physiological parameteres in the datasets: <br>
-<p><img src="http://latex.codecogs.com/gif.latex?$\tau _{e}(EC), \tau _{i}(EC), \gamma _{e}(EC), \gamma _{i}(EC), \Gamma _{e}(EC), \Gamma _{i}(EC), N_{ee}^{\beta }, N_{ei}^{\beta }, N_{ie}^{\beta }, N_{ii}^{\beta }, p_{ee}(EC), p_{ei}(EO), h_{e}^{rest}, h_{i}^{rest}, h_{e}^{eq}, h_{i}^{eq}, S_{e}^{\max }, S_{i}^{\max }, \bar{\mu _{e}}, \bar{\mu _{i}}, {\sigma }_{e}, {\sigma }_{i}, \eta(EC), \tau _{e}(EO), \tau _{i}(EO), \gamma _{e}(EO), \gamma _{i}(EO), \Gamma _{e}(EO), \Gamma _{i}(EO), p_{ee}(EO), p_{ei}(EO), \eta(EO)$" border="0" /></p>
+<p><img src="http://latex.codecogs.com/gif.latex?$\tau _{e}(EC), \tau _{i}(EC), \gamma _{e}(EC), \gamma _{i}(EC), \Gamma _{e}(EC), \Gamma _{i}(EC), N_{ee}^{\beta }, N_{ei}^{\beta }, N_{ie}^{\beta }, N_{ii}^{\beta }, p_{ee}(EC), p_{ei}(EO), h_{e}^{rest}, h_{i}^{rest}, h_{e}^{eq}, h_{i}^{eq}, S_{e}^{\max }, S_{i}^{\max }, \bar{\mu _{e}}, \bar{\mu _{i}}, {\sigma }_{e}, {\sigma }_{i}, \eta(EC)$" border="0" /></p>
+<p><img src="http://latex.codecogs.com/gif.latex?$\tau _{e}(EO), \tau _{i}(EO), \gamma _{e}(EO), \gamma _{i}(EO), \Gamma _{e}(EO), \Gamma _{i}(EO), p_{ee}(EO), p_{ei}(EO), \eta(EO)$" border="0" /></p>
+
 
 
 ## Code

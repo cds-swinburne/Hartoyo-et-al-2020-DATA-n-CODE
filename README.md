@@ -10,8 +10,8 @@ A full description of the techniques is described in the following manuscript:
 The "Datasets" folder contains the main and the most important datasets used and generated in Hartoyo et al. (2020)
 
 ```
-82x2x73_alpha_blocking_spectra.mat : dataset of the 82 pairs of eyes-closed (EC) and eyes-open (EO) experimental 
-spectra we fit the neural population model to
+82x2x73_alpha_blocking_spectra.mat : dataset of the 82 pairs of eyes-closed (EC) and eyes-open (EO) 
+experimental spectra we fit the neural population model to
 ```
 
 ```

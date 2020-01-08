@@ -34,7 +34,8 @@ experimental spectra we fit the neural population model to
 
 
 ```
-82x19x10x32_best_paramsets_across_regularization_parameters.mat : dataset of the parameter sets sampled across 19 different regularization parameters  
+82x19x10x32_best_paramsets_across_regularization_parameters.mat : dataset of the parameter sets 
+sampled across 19 different regularization parameters  
 ```
 
 #### The order of the 19 regularization parameters in the dataset: <br>

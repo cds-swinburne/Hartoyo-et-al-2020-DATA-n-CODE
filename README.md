@@ -67,12 +67,12 @@ ShowFigure(fparam, [figtype]);
 ``` 
 
 #### Input arguments:
-   figtype = 1 -> reproduce Fig 1 (Different subjects exhibit different degrees of alpha blocking upon opening of the eyes) <br>
-   figtype = 2 -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
-   figtype = 3 -> advise accessing "Posterior distributions for each parameter.ipynb" using Jupyter Notebook<sup>&reg;</sup> to reproduce Fig 3 (Posterior distributions for each parameter) <br>
-   figtype = 4 -> reproduce Fig 4 (EC to EO parameter responses and how they scale with the degree of alpha blocking) <br>
-   figtype = 5 -> reproduce Fig 5 (Forward calculation of the sensitivity of the alpha-rhythm to individual parameters) <br>
-   figtype = 'A' -> reproduce Fig A (Degree of alpha blocking across all subjects) <br>
-   figtype = 'B' -> reproduce Fig B (Unregularized EC to EO parameter responses and how they scale with the degree of alpha blocking) <br>
-   figtype = 'C' -> reproduce Fig C (Manhattan distances between EC and EO parameter sets as a function of the degree of alpha blocking) <br>
-   figtype = 'D' -> reproduce Fig D (Comparison of fitting error as a function of regularization parameter)
+   figtype = 1 -> reproduces Fig 1 (Different subjects exhibit different degrees of alpha blocking upon opening of the eyes) <br>
+   figtype = 2 -> reproduces Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
+   figtype = 3 -> advises accessing "Posterior distributions for each parameter.ipynb" using Jupyter Notebook<sup>&reg;</sup> to reproduce Fig 3 (Posterior distributions for each parameter) <br>
+   figtype = 4 -> reproduces Fig 4 (EC to EO parameter responses and how they scale with the degree of alpha blocking) <br>
+   figtype = 5 -> reproduces Fig 5 (Forward calculation of the sensitivity of the alpha-rhythm to individual parameters) <br>
+   figtype = 'A' -> reproduces Fig A (Degree of alpha blocking across all subjects) <br>
+   figtype = 'B' -> reproduces Fig B (Unregularized EC to EO parameter responses and how they scale with the degree of alpha blocking) <br>
+   figtype = 'C' -> reproduces Fig C (Manhattan distances between EC and EO parameter sets as a function of the degree of alpha blocking) <br>
+   figtype = 'D' -> reproduces Fig D (Comparison of fitting error as a function of regularization parameter)

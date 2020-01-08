@@ -62,7 +62,7 @@ ShowFigure(fparam, [figtype]);
 #### Input arguments:
    figtype = 1 -> reproduce Fig 1 (Different subjects exhibit different degrees of alpha blocking upon opening of the eyes) <br>
    figtype = 2 -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
-   figtype = 3 -> advise accessing "Posterior distributions for each parameter.ipynb" \n using Jupyter Notebook<sup>&reg;</sup> \n to plot Fig 3 (Posterior distributions for each parameter) <br>
+   figtype = 3 -> advise accessing "Posterior distributions for each parameter.ipynb" using Jupyter Notebook<sup>&reg;</sup> to reproduce Fig 3 (Posterior distributions for each parameter) <br>
    figtype = 4 -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
    figtype = 5 -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
    figtype = 'A' -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>

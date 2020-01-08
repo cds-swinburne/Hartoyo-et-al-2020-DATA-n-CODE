@@ -30,7 +30,7 @@ experimental spectra we fit the neural population model to
 
 #### The order of the 22 physiological parameteres in the datasets: <br>
 <p><img src="http://latex.codecogs.com/gif.latex?$\tau _{e}(EC), \tau _{i}(EC), \gamma _{e}(EC), \gamma _{i}(EC), \Gamma _{e}(EC), \Gamma _{i}(EC), N_{ee}^{\beta }, N_{ei}^{\beta }, N_{ie}^{\beta }, N_{ii}^{\beta }, p_{ee}(EC), p_{ei}(EO), h_{e}^{rest}, h_{i}^{rest}, h_{e}^{eq}, h_{i}^{eq}$" border="0" /></p>
-<p><img src="http://latex.codecogs.com/gif.latex?$\tau _{e}(EO), S_{e}^{\max }, S_{i}^{\max }, \bar{\mu _{e}}, \bar{\mu _{i}}, {\sigma }_{e}, {\sigma }_{i}, \eta(EC), \tau _{i}(EO), \gamma _{e}(EO), \gamma _{i}(EO), \Gamma _{e}(EO), \Gamma _{i}(EO), p_{ee}(EO), p_{ei}(EO), \eta(EO)$" border="0" /></p>
+<p><img src="http://latex.codecogs.com/gif.latex?$S_{e}^{\max }, S_{i}^{\max }, \bar{\mu _{e}}, \bar{\mu _{i}}, {\sigma }_{e}, {\sigma }_{i}, \eta(EC), \tau _{e}(EO), \tau _{i}(EO), \gamma _{e}(EO), \gamma _{i}(EO), \Gamma _{e}(EO), \Gamma _{i}(EO), p_{ee}(EO), p_{ei}(EO), \eta(EO)$" border="0" /></p>
 
 
 
@@ -60,23 +60,16 @@ ShowFigure(fparam, [figtype]);
 ``` 
 
 #### Input arguments:
-   figtype = 1 -> spectral fits for selected subjects (default) <br>
-   figtype = 2 -> single subject post and prior MCMC distributions <br>
-   figtype = 3 -> KLD Box plots for all subjects <br>
-   figtype = 4 -> parameter box plots for all subjects <br>
-   figtype = 5 -> Hessian eigenvalues (selected subjects) <br>
-   figtype = 6 -> Fisher Information eigenvalues (selected subjects) <br>
-   figtype = 7 -> Hessian eigenvector kernel smoothed density plots (all subjects) <br>
-   figtype = 8 -> Fisher matrix eigenvector angle density plots (all subjects) <br>
-   figtype = 9 -> plot prior distributions of Eigen-directions <br>
-   figtype = 10 -> plot fitted spectra and spectra at points shifted in eigen directions <br>
-   figtype = 11 -> plot the time domain eeg comparisons <br>
-   figtype = 12 -> plot pairwise parameter histograms <br>
-   figtype = 13 -> plot eigenvector components <br>
-   figtype = 14 -> plot of derivatives of gaussain wrt its parameters <br>
-   figtype = 15 -> plot of direction cosine magnitudes <br>
-   figtype = 16 -> plot correlation coefficients <br>
-
+   figtype = 1 -> reproduce Fig 1 (Different subjects exhibit different degrees of alpha blocking upon opening of the eyes) <br>
+   figtype = 2 -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
+   figtype = 3 -> advise accessing "Posterior distributions for each parameter.ipynb" \n using Jupyter Notebook<sup>&reg;</sup> \n to plot Fig 3 (Posterior distributions for each parameter) <br>
+   figtype = 4 -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
+   figtype = 5 -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
+   figtype = 'A' -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
+   figtype = 'B' -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
+   figtype = 'C' -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
+   figtype = 'D' -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>'
+   
 
 
 

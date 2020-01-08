@@ -28,11 +28,17 @@ experimental spectra we fit the neural population model to
 1000 regularized PSO samples (regularization parameter = 0.1) 
 ```
 
-#### The order of the 22 physiological parameteres in the datasets: <br>
+#### The order of the 32 fitting parameteres in the datasets: <br>
 <p><img src="http://latex.codecogs.com/gif.latex?$\tau _{e}(EC), \tau _{i}(EC), \gamma _{e}(EC), \gamma _{i}(EC), \Gamma _{e}(EC), \Gamma _{i}(EC), N_{ee}^{\beta }, N_{ei}^{\beta }, N_{ie}^{\beta }, N_{ii}^{\beta }, p_{ee}(EC), p_{ei}(EO), h_{e}^{rest}, h_{i}^{rest}, h_{e}^{eq}, h_{i}^{eq}$" border="0" /></p>
 <p><img src="http://latex.codecogs.com/gif.latex?$S_{e}^{\max }, S_{i}^{\max }, \bar{\mu _{e}}, \bar{\mu _{i}}, {\sigma }_{e}, {\sigma }_{i}, \eta(EC), \tau _{e}(EO), \tau _{i}(EO), \gamma _{e}(EO), \gamma _{i}(EO), \Gamma _{e}(EO), \Gamma _{i}(EO), p_{ee}(EO), p_{ei}(EO), \eta(EO)$" border="0" /></p>
 
 
+```
+82x19x10x32_best_paramsets_across_regularization_parameters.mat : dataset of the parameter sets sampled across 19 different regularization parameters  
+```
+
+#### The order of the 19 regularization parameters in the dataset: <br>
+1e-5, 5e-4, 1e-4, 5e-3, 1e-3, 5e-2, 1e-2, 5e-1, 0.1, 0.5, 1, 5, 10, 50, 100, 500, 1000, 5000, 1e4
 
 ## Code
 
@@ -63,12 +69,12 @@ ShowFigure(fparam, [figtype]);
    figtype = 1 -> reproduce Fig 1 (Different subjects exhibit different degrees of alpha blocking upon opening of the eyes) <br>
    figtype = 2 -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
    figtype = 3 -> advise accessing "Posterior distributions for each parameter.ipynb" using Jupyter Notebook<sup>&reg;</sup> to reproduce Fig 3 (Posterior distributions for each parameter) <br>
-   figtype = 4 -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
-   figtype = 5 -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
-   figtype = 'A' -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
-   figtype = 'B' -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
-   figtype = 'C' -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>
-   figtype = 'D' -> reproduce Fig 2 (Regularized and unregularized best fits to EC and EO spectra) <br>'
+   figtype = 4 -> reproduce Fig 4 (EC to EO parameter responses and how they scale with the degree of alpha blocking) <br>
+   figtype = 5 -> reproduce Fig 5 (Forward calculation of the sensitivity of the alpha-rhythm to individual parameters) <br>
+   figtype = 'A' -> reproduce Fig A (Degree of alpha blocking across all subjects) <br>
+   figtype = 'B' -> reproduce Fig B (Unregularized EC to EO parameter responses and how they scale with the degree of alpha blocking) <br>
+   figtype = 'C' -> reproduce Fig C (Manhattan distances between EC and EO parameter sets as a function of the degree of alpha blocking) <br>
+   figtype = 'D' -> reproduce Fig D (Comparison of fitting error as a function of regularization parameter) <br>'
    
 
 

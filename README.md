@@ -39,7 +39,7 @@ sampled across 19 different regularization parameters
 ```
 
 #### The order of the 19 regularization parameters in the dataset: <br>
-1e-5, 5e-4, 1e-4, 5e-3, 1e-3, 5e-2, 1e-2, 5e-1, 0.1, 0.5, 1, 5, 10, 50, 100, 500, 1000, 5000, 1e4
+1e-5, 5e-5, 1e-4, 5e-4, 1e-3, 5e-3, 1e-2, 5e-2, 0.1, 0.5, 1, 5, 10, 50, 100, 500, 1000, 5000, 1e4
 
 ## Code
 

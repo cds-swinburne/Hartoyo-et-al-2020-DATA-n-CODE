@@ -75,4 +75,4 @@ ShowFigure(fparam, [figtype]);
    figtype = 'A' -> reproduce Fig A (Degree of alpha blocking across all subjects) <br>
    figtype = 'B' -> reproduce Fig B (Unregularized EC to EO parameter responses and how they scale with the degree of alpha blocking) <br>
    figtype = 'C' -> reproduce Fig C (Manhattan distances between EC and EO parameter sets as a function of the degree of alpha blocking) <br>
-   figtype = 'D' -> reproduce Fig D (Comparison of fitting error as a function of regularization parameter)'
+   figtype = 'D' -> reproduce Fig D (Comparison of fitting error as a function of regularization parameter)

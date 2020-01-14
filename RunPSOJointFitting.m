@@ -1,7 +1,7 @@
 function [best_paramset, min_cost] = RunPSOJointFitting(EC_target_spectrum, EO_target_spectrum, reg_param, seed)
 %
 % [best_paramset, err] = RunPSO(target_spec)
-%   run particle swarm optimization to jointly fit the model to the experimental spectra 
+%   run particle swarm optimization to jointly fit the model to the EC and EO experimental spectra 
 %   with a random starting point based on the seed given in the arguments
 %   return the best parameter set and the error assosiated with it.
 %

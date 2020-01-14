@@ -2,11 +2,11 @@ function EC_EO_best_paramsets = RunTwoStatePSOBasedSamplingFor82Subjects(reg_par
 
 %
 %   Generate samples of parameter estimation solutions for
-%   experimental spectra from 82 subjects stored in 82x73_experimental_spectra.mat
-%   using PSO and store the drawn samples into 82x100x22_best_paramsets_PSO.mat
+%   experimental EC and EO spectra from 82 subjects stored in 82x2x73_experimental_spectra.mat
+%   using PSO and return EC_EO_best_paramsets as the drawn samples
 %
 
-% load experimental spectra from 83 subjects
+% load experimental EC and EO spectra from 82 subjects
 file = load('Datasets\82x2x73_alpha_blocking_spectra.mat');
 spectra_pairs = file.spectra_pairs;
 EC_experimental_spectra(:,:) = spectra_pairs(:,1,:);

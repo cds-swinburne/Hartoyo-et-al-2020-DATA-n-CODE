@@ -177,7 +177,7 @@ for i=1:9
     
     
     
-    t= text(8.15,0.07, ['\fontsize{14}{\color{red}\uparrow ','\fontsize{12} \color[rgb]{0 0.4470 0.7410}',labl{i},'\fontsize{14} \color[rgb]{0.0902 0.4000 0.1725}\downarrow}'],'interpreter','tex');
+    t= text(8.15,0.07, ['\fontsize{12}{\color[rgb]{0.0902 0.4000 0.1725}',labl{i},' \color{red}\fontsize{14}\uparrow\fontsize{14}\color[rgb]{0 0.4470 0.7410}\downarrow}'],'interpreter','tex');
     t.FontWeight = 'bold';
 
     if mod(i,2)==1

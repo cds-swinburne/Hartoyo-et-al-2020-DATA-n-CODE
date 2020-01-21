@@ -3,7 +3,7 @@ Alpha blocking, a phenomenon where the alpha rhythm is attenuated by attention t
 
 A full description of the techniques is described in the following manuscript:
 
-"<b>Inferring a simple mechanism for alpha-blocking by fitting a neural population model to EEG spectra</b>" by Agus Hartoyo, Peter Cadusch, David Liley, and Damien Hicks 
+"<b>Inferring a simple mechanism for alpha-blocking by fitting a neural population model to EEG spectra</b>" by Agus Hartoyo, Peter Cadusch, David Liley, and Damien Hicks, doi: https://doi.org/10.1101/2020.01.20.912386 
 
 ## Datasets
 
